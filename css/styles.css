@@ -1,0 +1,970 @@
+/*universal*/
+html
+{
+	height:100%;
+}
+
+body
+{
+	background:black;
+	margin: 8px 0 0;
+}
+
+h2
+{
+	font-family: lucida bright;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 42px;
+    margin: 15px;
+}
+
+h3
+{
+	font-size: 24px;
+}
+
+h4
+{
+	font-size:25px;
+}
+
+h3, h4, h5
+{
+	font-family: lucida bright;
+    color: white;
+    text-align: center;
+    margin: 1px 0;
+}
+
+h5
+{
+	text-align:left;
+}
+ 
+h6
+{
+	color: white;
+    font-size: 16px;
+    margin: 20px 0 10px;
+}
+
+p
+{
+    font-size: 16px;
+    font-family: lucida bright;
+    color: white;
+    opacity: 1;
+    margin: 0;
+    z-index: 10;
+}
+
+.flex
+{
+	display: flex;	
+}
+
+/*#main
+{
+	background:black;
+}*/
+
+.mobileDevices{
+	display:none;
+}
+
+
+
+.topBar 
+{
+    background: #9e9e9e;
+    position: fixed;
+    height: 56px; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 10;
+}
+
+.width50
+{
+	width:50%;
+}
+
+.btnCon
+{
+	margin: 0.25% 2%;
+}
+
+.home
+{
+	height:80%;
+	margin: auto 0;
+}
+
+
+.homeAnchor 
+{
+    width: 42px;
+    height: 80%;
+    margin: auto 10px;
+}
+
+.higherClassImg
+{
+	width: 40px;
+    margin: auto 0px auto auto;
+    height: 80%;
+}
+
+/*fixed Bar*/
+/*.btnCon
+{
+    width: 30%;
+    margin: 2px 20px;
+}
+*/
+.trending
+{
+	border: black solid 4px;
+    background: #565353;
+    font-family: lucida bright;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+#main 
+{
+    margin-top: 125px;
+}
+
+.trending-desc
+{
+	margin: 15px 0;
+	display:none;
+}
+
+.trendingDeskDesc
+{
+	margin: 20px 0;
+}
+
+.strain
+{
+	margin: 3% 0;
+}
+
+.menuContainer{
+	width: 75%;
+	margin:auto;
+}
+
+.nav_hamburger
+{
+	height:100%;
+}
+
+
+.hamburger_con
+{
+	display:none;
+    margin: 0;
+    width: 60px;
+}
+
+.navigation 
+{
+    display: flex;
+    position: fixed;
+    z-index: 12;
+    width: 100%;
+    top:6%;
+}
+
+
+
+.navigation h3
+{
+	 color:white;
+	 text-align:center;
+}
+
+
+
+.navBtn 
+{
+	background: #3e3e3e85;
+    display: block;
+    padding: 1% 3% 1%;
+    width: 11%;
+    height: 100%;
+    border: white solid 1px;
+    border-top: none;
+    border-bottom: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.navBtn .rotateArrow.arrowImg
+{
+	transform: rotate(0deg);
+}
+
+
+
+.menuTop
+{
+	margin: 0% 1px 3%;
+	padding-top: 3%;
+	display: none;
+}
+
+.navigation h4
+{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    text-align: left;
+    font-family: Segoe UI;
+    display:inline-block;
+}
+
+.navBtn .arrowImg
+{
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 85%;
+    border: white solid 1px;
+    border-radius: 100%;
+    transform: rotate(270deg);
+}
+
+.subMenu
+{
+	display:none;
+	margin-top:5%;
+}
+
+.subMenu h5
+{
+	display: inline-block;
+    position: absolute;
+    top: 28%;
+    left: 15%;
+}
+
+.submenuCat
+{
+	padding: 10px;
+    position: relative;
+}
+
+.submenuCat img
+{
+	height: 20px;
+    margin: auto;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    top: 22%;
+}
+
+
+
+.bottomNav
+{
+	height: 2vh;
+    background: rgba(255, 255, 255, 0.47);	
+}
+
+/*Footer*/
+.footer
+{
+    height: 5%;
+    background: #9e9e9e;
+    width: 100%;
+}
+
+.footer p
+{
+	font-size:12px;
+	    padding: 1%;
+}
+
+
+
+.accordion
+{
+	width: 80%;
+    margin: auto;
+}
+
+.accordionMain
+{
+	
+    margin: 10px auto;
+    width: 90%;
+
+}
+
+.accordionHead
+{
+	width: 100%;
+    height: 5vh;
+    margin: 0px auto;
+ 	cursor: pointer;
+    background: #c5c5c5;
+    display: flex;
+}
+
+.accordionHead h4
+{
+	text-align:left;
+	margin:10px;
+}
+
+.accIcon
+{
+	width:10%;
+	text-align:center;
+}
+
+.accHeaderCon
+{
+	width:90%;
+}
+
+.accIcon img
+{
+	height:70%;
+	margin: 6px 0;
+}
+
+.toggleAccSize
+{
+	border: 1px solid #c5c5c5;
+	border-top:none;
+	overflow:hidden;
+}
+
+.strainTitle
+{
+	margin: 0 0 10px;
+}
+
+.description p
+{
+	padding: 10px 0;
+}
+
+
+.menuImage
+{
+	width: 40%;
+    margin: auto;
+    text-align: center;	
+}
+
+.menuText
+{
+	width:60%;
+	padding: 20px;
+}
+
+.menuImage img
+{
+    width: 100%;
+}
+
+.trending-Con .menuImage img
+{
+	width: 60%;
+}
+
+.prices p
+{
+	margin: 7px 0;
+    font-size: 14px;
+}
+
+.prices div
+{
+	margin: 0 11PX 0 0;	
+}
+
+.menuContainer .menuText .prices{
+	border-bottom: 1px white solid;
+}
+
+.mainMenuContent
+{
+	display:none;
+	padding:10px 0;
+	background:black;
+}
+
+.panelWidth{
+	width: 60%;
+}
+
+
+/*carousel*/
+
+
+
+.carousel {
+    width: 55%;
+    margin: auto;
+}
+
+.arrow
+{
+    text-align: center;
+    display:none;
+    width:10%;
+    top: 39%;
+    position:absolute;
+
+}
+
+.left
+{
+	left: 5%;
+}
+
+.right
+{
+	right: 5%;
+}
+
+.rotate
+{
+	transform: rotate(180deg);
+}
+
+.arrow img
+{
+	width: 37%;
+	cursor: pointer;
+}
+.carousel img
+{
+	width: 100%;
+	z-index:1;
+}
+
+/*about-us*/
+.aboutUsCon
+{
+    margin: 33px auto;
+    width: 93%;
+}
+.aboutUsHeader
+{
+	width:100%;
+	background-image: url("../images/oils-Back.png"); 
+}
+
+.aboutUsHeader h3
+{
+	padding: 20px
+}
+
+.about-us-p
+{
+	background: rgb(121,121,121, 0.5);
+    opacity: 1;
+    z-index: 1;
+    padding: 25px 10px;
+    display:flex;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.pieChart img
+{
+	width: 50%;
+}
+
+.pieP
+{
+	 padding: 0 10px;
+    margin: auto 0;
+    font-size: 22px;
+}
+
+.pieP p
+{
+    font-size: 22px;
+}
+
+
+
+
+
+.strainChoice img
+{
+	height: 100%;
+	width:100%;
+}
+
+.strainChoice 
+{
+    width: 26%;
+    display: flex;
+    margin: 0px 4%;
+    position: relative;
+       cursor:pointer;
+}
+
+
+
+
+.strainSelectionCon
+{
+	overflow: visible;
+	justify-content: center;
+	margin: 1% 5%;
+}
+
+
+
+.text-Overlay:hover
+{
+	display:block;
+}
+
+.strainDisplay
+{
+	display: none;
+}
+
+.text-Overlay
+{
+	position: absolute;
+    color: #ffffff;
+    bottom: 0%;
+    height: 40%;
+    background-color: #171717a6;
+    width: 100%;
+    display:none;
+}
+
+.text-Overlay h6
+{
+	font-size: 18px;
+    margin: 8px 0;
+    text-align: center;
+}
+
+
+.smoke
+{
+
+	background-image: url("../images/smoke.jpg");
+	   background-image: url(../images/smoke.jpg);
+    background-repeat: repeat-x;
+    z-index: 2;
+    background-position: bottom;
+}
+
+/*Trending*/
+
+.trending-Con
+{
+	margin:2% 15%;
+	background: #c3c3c338;
+}
+
+.trending-desc p
+{
+	font-size: 13px;
+}
+
+.individual-con
+{
+    border-bottom: solid white 1px;
+    padding: 15px 10px;
+}
+
+@media only screen and (max-width: 1450px) 
+{
+	.accordionHead h4
+	{
+		font-size:23px;
+		text-align: left;
+    	margin: 2px;
+	}
+
+	.description:{
+		display: block;
+	}
+
+
+
+}
+
+
+@media only screen and (max-width: 1250px) 
+{
+	/*Tablet*/
+	h4
+	{
+		font-size: 22px;
+	}
+
+	.menuContainer{
+		width: 100%;
+		margin:0;
+	}
+
+	.desktopOnly{
+		display:none;
+	}
+
+	.mobileDevices{
+		display:block;
+	}
+
+	.strain-2, .strain-3
+	{
+		display: none;
+	}
+
+	.smoke
+	{
+		background-repeat: no-repeat;
+	}
+
+	.menuText{
+		padding:0;
+		width:40%;
+	}
+
+	.menuText p 
+	{
+		font-size: 20px;
+	}
+
+	.description p
+	{
+		font-size:20px;
+		padding:8px 25px;
+		margin:0;
+	}
+
+	.prices{
+		border-bottom: 0;
+	}
+
+
+	.strain
+	{
+		margin: 0;
+	}
+
+	.menuImage img
+	{
+	    width: 70%;
+	}
+
+	.menuImage
+	{
+		width: 60%;
+	    margin: auto;
+	    text-align: center;	
+	}
+
+	.menuTop
+	{
+		display: block;
+	}
+
+	.panelWidth{
+		width: 100%;
+	}
+
+	.accordion
+	{
+		width: 100%;
+	    margin: auto;
+	}
+
+	.navigation
+	{
+		background: #404040;
+		display:flex;
+		margin-top: 2.7%;
+	    border-bottom: white solid 1px;
+	    position: fixed;
+	    top: 0px;
+	}
+
+	.strainChoice img
+	{
+		height: 300px;
+	}
+
+	.strainChoice
+	{
+		width: 33.33%;
+		height:100%;
+	    display: flex;
+	    margin: 0px 25%;
+	    position:relative;
+	 
+	}
+
+	.menuContainer .menuText .prices{
+	border-bottom: none;
+}
+
+	.strain-1
+	{
+		display: block;
+	}
+
+	.home img
+	{
+		margin: auto;
+		height:100%;
+	}
+
+	.home
+	{
+		display: block;
+		height:100%;
+	}
+
+
+	.arrow img
+	{
+		width: 90%;
+	}
+
+	.navBtn
+	{
+		border: none;
+	    border-top: solid 3px black;
+	    display: block;
+	    padding: 4.5% 5%;
+	    position: relative;
+	    width: auto;
+	}
+
+	.btnCon
+	{
+	    margin: auto 20px;
+	    width: 84%;
+	}
+
+	.strainSelectionCon .strainChoice:last-child 
+	{
+	  border-right: none;
+	}
+
+	.strainChoice
+	{
+		margin: 0;
+	}
+
+	.prices div
+	{
+		margin: 0;	
+	}
+
+	.trending-Con
+	{
+		margin:10px 30px;
+	}
+
+	.trending-desc p 
+	{
+	    font-size: 15px;
+	}
+
+	.homeAnchor 
+	{
+	    width: 35px;
+	    height: 50%;
+	    margin: auto 0px auto 10px;
+	}
+
+	.hamburger_con
+	{
+		display:block;
+	}
+
+	.higherClassImg
+	{
+		width: 55px;
+    	margin: auto 0px auto auto;
+    	height: 80%;
+	}
+
+	#main
+	{
+		margin-top: 70px;
+	}
+
+
+	.navigation
+	{
+		margin-top: 6%;
+		width: 50%;
+	    margin-left: 50%;
+	    display: none;
+	    border-bottom: none;
+	    position:inherit;
+	}
+
+
+	.navBtn .arrowImg
+	{
+		left: 87%;
+	}
+
+	.navigation h4
+	{
+		font-size: 21px;
+	}
+
+	.carousel
+	{
+	    width: 90%;
+	    margin: auto;
+	}
+	.pieP
+	{
+	    font-size: 18px;
+	}
+
+	/*.accordionHead h4 
+	{
+	    text-align: left;
+	    padding: 2px 7px;
+	    margin: 10px;
+	    font-size: 26px;
+
+	}*/
+
+	.text-Overlay
+	{
+	    display:block;
+	}
+
+	.strainChoice img
+	{
+		height: inherit;
+	}
+
+	.strainSelectionCon
+	{
+		overflow-x:scroll;
+		margin: 0;
+	}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 800px) 
+{
+ .trendingDeskDesc{
+ 	display:none;
+ }
+
+ .trending-desc{
+ 	display: block;
+ }
+}
+
+@media only screen and (max-width: 600px) 
+{
+
+	h2
+	{
+		font-size: 24px;
+	}
+
+	h4
+	{
+		font-size: 16px;
+	}
+
+
+	.about-us-p
+	{
+		display:block;
+	}
+
+	.btnCon
+	{
+	    width: 80%;
+	}
+
+	.menuImage img
+	{
+	    width: 78%;
+	}
+
+	.arrow
+	{
+		display:block;
+	}
+
+
+	.hamburger_con
+	{
+		display:block;
+	}
+
+	.accordionHead h4 
+	{
+	    font-size: 16px;
+	}
+
+	.navigation
+	{
+		width: 100%;
+	    margin-left: 0;
+	    margin-top: 13%;
+	}
+
+	.description p
+	{
+		font-size:13px;
+	}
+
+	.strainChoice img
+	{
+		height: 100%;
+	}
+
+	.text-Overlay
+	{
+		height:100%;
+	}
+
+	.menuText p 
+	{
+	    font-size: 16px;
+	}
+
+	.footer p 
+	{
+	    padding: 3%;
+	}
+
+
+}
+

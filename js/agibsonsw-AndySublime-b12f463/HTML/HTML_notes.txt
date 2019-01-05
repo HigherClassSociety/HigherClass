@@ -1,0 +1,20 @@
+HTML completions and attributes.
+
+I've added HTML5 tags and attributes.
+
+I'm considering amending the completions to add 
+an extra tab position within the opening tag. I 
+might do this for all of the tags, or just for 
+those ones where additional attributes are nearly 
+always added - such as DIV, SPAN, etc..
+
+For the moment I've added action and method to the 
+form' completion, and type to input. These also 
+include value-completions. That is, type g for get, 
+p for post, c for checkbox, etc.
+
+The canvas tag includes width and height attributes 
+as these are essential.
+
+I've added the href attribute to 'base' and src to 
+'iframe'.
