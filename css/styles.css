@@ -10,6 +10,14 @@ body
 	margin: 8px 0 0;
 }
 
+h1
+{
+	font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
 h2
 {
 	font-family: lucida bright;
@@ -74,6 +82,18 @@ p
 	display:none;
 }
 
+.centerResponsive
+{
+	display: flex;
+	align-items: center;
+ 	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+ 	flex-flow: row wrap;
+ 	align-content: flex-end;
+ 	margin:auto;
+ 	width:75%;
+}
 
 
 .topBar 
@@ -86,6 +106,27 @@ p
     left: 0;
     display: flex;
     z-index: 10;
+}
+
+.tileHome
+{
+    position: relative;
+    margin: 2% 0;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+.tileHome.half
+{
+    margin: 0 4% 0 4%;
+    width: 42%;
+}
+
+
+.tileHome div .text-Overlay
+{
+	display:block;
+	height: 40%;
 }
 
 .width50
@@ -126,6 +167,8 @@ p
     margin: 2px 20px;
 }
 */
+
+
 .trending
 {
 	border: black solid 4px;
@@ -461,8 +504,9 @@ p
 .aboutUsCon
 {
     margin: 33px auto;
-    width: 93%;
+    width: 75%;
 }
+
 .aboutUsHeader
 {
 	width:100%;
@@ -606,8 +650,28 @@ p
 	.description:{
 		display: block;
 	}
+	.navigation{
+		top: 9%;
+	}
 
+	.tileHome
+	{
+	    position: relative;
+	    margin: 2% 0;
+	    cursor:pointer;
+	    overflow: hidden;
+	}
 
+	.tileHome.half
+	{
+	    margin: 0 2.5%;
+	    width: 45%;
+	}
+
+	.aboutUsCon
+	{
+	    width: 93%;
+	}
 
 }
 
@@ -619,6 +683,12 @@ p
 	{
 		font-size: 22px;
 	}
+
+	.centerResponsive{
+	    width: 80%;
+    	margin: auto;
+	}
+
 
 	.menuContainer{
 		width: 100%;
@@ -641,6 +711,33 @@ p
 	.smoke
 	{
 		background-repeat: no-repeat;
+	}
+
+	.tileImg
+	{
+		width: 100%;
+   		text-align: center;
+	}
+
+	.tileHome.half
+	{
+	    margin: 22px;
+	    width: 90%;
+	}
+
+	.tileHome
+	{
+		width: 90%;
+		position:relative;
+		margin: 22px;
+		height: 80%;
+		overflow: hidden;
+		cursor: pointer;
+	}
+
+	.tileHome div .textOverlay
+	{
+		height: 40%;
 	}
 
 	.menuText{
@@ -901,6 +998,11 @@ p
 		font-size: 16px;
 	}
 
+	.centerResponsive{
+	    width: 100%;
+
+	}
+
 
 	.about-us-p
 	{
@@ -916,6 +1018,29 @@ p
 	{
 	    width: 78%;
 	}
+
+	.tileImg
+	{
+		width: 100%;
+   		text-align: center;
+	}
+
+	.tileHome
+	{
+		width: 90%;
+		position:relative;
+		margin: 22px;
+		height: 80%;
+		overflow: hidden;
+		cursor: pointer;
+	}
+
+	.tileHome div .text-Overlay
+	{
+
+		height: 40%;
+	}
+
 
 	.arrow
 	{
