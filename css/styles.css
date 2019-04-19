@@ -203,6 +203,7 @@ li{
     color: white;
     font-weight: bold;
     padding: 8px 12px;
+    cursor: pointer;
 }
 
 #main 
@@ -400,6 +401,7 @@ li{
 .accHeaderCon
 {
 	width:90%;
+	margin: auto;
 }
 
 .accIcon img
@@ -680,7 +682,7 @@ li{
 		display: block;
 	}
 	.navigation{
-		top: 9%;
+		top: 10%;
 	}
 
 	.tileHome
@@ -1024,6 +1026,11 @@ li{
     margin: 10px auto 0;
 }
 
+
+.irc_mi{
+	display: none;
+}
+
 }
 
 @media only screen and (max-width: 600px) 
@@ -1096,7 +1103,7 @@ li{
 
 	.accordionHead h4 
 	{
-	    font-size: 16px;
+	    font-size: 17px;
 	}
 
 	.navigation
@@ -1134,3 +1141,9 @@ li{
 
 }
 
+@media only screen and (max-width: 370px) 
+{
+	.notForSale{
+		display: none;
+	}
+}
