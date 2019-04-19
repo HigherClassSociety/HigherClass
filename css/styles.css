@@ -779,7 +779,7 @@ li{
 
 	.menuText{
 		padding:0;
-		width:40%;
+		width:35%;
 	}
 
 	.menuText p 
@@ -806,12 +806,12 @@ li{
 
 	.menuImage img
 	{
-	    width: 70%;
+	    width: 89%;
 	}
 
 	.menuImage
 	{
-		width: 60%;
+		width: 65%;
 	    margin: auto;
 	    text-align: center;	
 	}
