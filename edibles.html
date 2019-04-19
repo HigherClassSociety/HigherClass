@@ -7,10 +7,11 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/styles.css">
 	
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 
 	<script src="js/nav.js"></script>
 	<script src="js/edibles.js"></script>
+		<script src="js/accordion.js"></script>
 
 	<title>Social</title>
 </head>
@@ -64,7 +65,7 @@
 
 		<div class="navBtn"> 
 			<div class="expandTrig"> 
-				<h4>Shatter</h4> 
+				<h4>Concentrates</h4> 
 				<img class="arrowImg" src="images/navigation-arrow.png"> 
 			</div>	
 			<div class="subMenu"> 
@@ -97,105 +98,265 @@
 <!-- END OF NAVIGATION -->
 	<div id="main">
 		<div>
-			<h2>Edible Selection</h2>
+		<div>
+			<h2>Edibles & Misc Selection</h2>
 
 			<h4>(Select your category)</h4>
 		</div>
 		
-		<div class="panelWidth" style="margin: 25px auto;">
-			<div style="margin:10px 0;">
-				<h4>THC Tasties</h4>
-			</div>
+		<div class="accordion">
 
-			<div style="justify-content: center;" class="flex">
-					<div  style="cursor: pointer;" class="panelChoice thcGummies">
-						<h5 style="text-align:center;">Gummies</h5>
-						<img style="width:90%; margin: auto 9px; float:right;"  src="images/edibleGummy.jpg">
+			<div class="accordionMain">
+				<div class="accordionHead">
+					<div class="accHeaderCon">
+						<h4>THC Tasties</h4>
 					</div>
-
-
-					<div  style="cursor: pointer;" class="panelChoice thcOtherProducts">
-						<h5 style="text-align:center;">Other Products</h5>
-						<img style="width:90%; margin: auto 9px; float:right;"  src="images/edibleGummy.jpg">
+					<div class ="accIcon">
+						<img class="plus" src="images/plus.png">
+						<img class="minus" style="display:none;" src="images/minus.png">  
 					</div>
+				</div>
+					<div class="mainMenuContent">
+							<div class="strain-1 strainDisplay">
+								<div class="strainTitle">
+									<h4>Sativa</h4>
+								</div>
+								<div class="flex menuContainer">
+									<div class="menuImage">
+										<img class="homeSlides" src="images/dabs/Devils-tit-sativa.png">
+									</div>
+									<div class="menuText">
+										<div class="prices">
+											<p><b>1 g:</b> $25</p>
+											<p><b>7 g:</b> $165</p>
+											<p><b>Rosin 1g:</b> $60</p>
+											<p><b>Diamonds 1g:</b> $80</p>
+										</div>
+										<div class="description desktopOnly">
+											<p>Sativa strains will produce a will typically produce a euphoric, energetic, cerebral high functioning high. All Higher Class Extracts are created.......</p>
+										</div>		
+									</div>
+							</div>
+
+							<div class="description mobileDevices">
+								<p>Sativa strains will produce a will typically produce a euphoric, energetic, cerebral high functioning high. All Higher Class Extracts are created........</p>
+							</div>
+						</div>
+
+							<div class="strain-2 strainDisplay">
+								<div class="strainTitle">
+									<h4>Hybrid</h4>
+								</div>
+								<div class="flex menuContainer">
+									<div class="menuImage">
+										<img class="homeSlides" src="images/dabs/Chem-Dog-Hybrid.jpg">
+									</div>
+									<div class="menuText">
+										<div class="strain">
+											<p><b>Sativa</b></p>
+										</div>
+
+										<div class="prices">
+											<p><b>1 g:</b> $25</p>
+											<p><b>7 g:</b> $165</p>
+											<p><b>Rosin 1g:</b> $60</p>
+											<p><b>Diamonds 1g:</b> $80</p>
+										</div>
+										<div class="description desktopOnly">
+											<p>Hybrid is a combination of sativa and indica plants — specifically bred to provide certain qualities. All Higher Class Extracts are created.... </p>
+										</div>
+
+									</div>
+							</div>
+
+							<div class="description mobileDevices">
+								<p>Hybrid is a combination of sativa and indica plants — specifically bred to provide certain qualities. All Higher Class Extracts are created.... </p>
+							</div>
+						</div>
+						<div class="strain-3 strainDisplay">
+							<div class="strainTitle">
+								<h4>Indica</h4>
+							</div>
+							<div class="flex menuContainer">
+								<div class="menuImage">
+									<img class="homeSlides" src="images/dabs/Royal-Cookies-Indica.JPG">
+								</div>
+								<div class="menuText">
+									<div class="prices">
+										<p><b>1 g:</b> $25</p>
+										<p><b>7 g:</b> $165</p>
+										<p><b>Rosin 1g:</b> $60</p>
+										<p><b>Diamonds 1g:</b> $80</p>
+									</div>
+									<div class="description desktopOnly">
+										<p>Indica is a stronger strain of flower typically used to aid mental relaxation, muscle relaxation, and to increase apetite. All Higher Class Extracts... </p>
+									</div>		
+								</div>
+							</div>
+
+							<div class="description mobileDevices">
+								<p>Indica is a stronger strain of flower typically used to aid mental relaxation, muscle relaxation, and to increase apetite. All Higher Class Extracts... </p>
+							</div>
+						</div>
+
+					<div class="sliderCon" style="position:relative">
+						<div class="strainTitle">
+							<h4>Select Your Concentrates</h4>
+						</div>
+						<div class="strainSelectionCon">
+							<div class="flex" style="justify-content: center;">
+								<div class="strainChoice change-strain-1">
+									<div class="text-Overlay">
+										<h6>Sativa</h6>
+									</div>
+									<img  src="images/dabs/Devils-tit-sativa.png">
+								</div>
+								
+								<div class="strainChoice change-strain-2">
+									<div class="text-Overlay">
+										<h6>Hybrid</h6>
+									</div>
+									<img  src="images/dabs/Chem-Dog-Hybrid.jpg">
+								</div>
+								
+								<div class="strainChoice change-strain-3">
+									<div class="text-Overlay">
+										<h6>Indica</h6>
+									</div>
+									<img  src="images/dabs/Royal-Cookies-Indica.JPG">
+								</div>
+							</div>
+						</div>	
+					</div>	
+				</div>
+			</div>	
 			
-			</div>
-
-			<div style="display:none;" class="gummyDesc flex">
-					<div style="margin:auto;">
-						<h6>Name</h6>
-						<p>Cola Bottles</p>
-						<p>Cherry Cola Bottles</p>
-						<p>Sour Keys</p>
-						<p>Swedish Fish</p>
+			<div class="accordionMain">
+				<div class="accordionHead">
+					<div class="accHeaderCon">
+						<h4>Fire Fuel Vapes</h4>
 					</div>
-
-					<div style="margin:auto;">
-						<h6>THC Content</h6>
-						<p> 260 mg</p>
-						<p> 260 mg</p>
-						<p> 260 mg</p>
-						<p> 260 mg</p>
+					<div class ="accIcon">
+						<img class="plus" src="images/plus.png">
+						<img class="minus" style="display:none;" src="images/minus.png">  
 					</div>
-
-					<div style="margin:auto;">
-						<h6>Type</h6>
-						<p>Indica</p>
-						<p>Sativa</p>
-						<p>Indica</p>
-						<p>Indica</p>
-					</div>
-			 </div>
-
-			 <div style="display:none;" class="otherProductsDesc flex">
-					<div style="margin:auto;">
-						<h6>Name</h6>
-						<p>Twinkies</p>
-						<p>Oreos</p>
-						<p>Cereal Bars</p>
-					</div>
-
-					<div style="margin:auto;">
-						<h6>THC Content</h6>
-						<p> 260 mg</p>
-						<p> 260 mg</p>
-						<p> 260 mg</p>
-						<p> 260 mg</p>
-					</div>
-
-					<div style="margin:auto;">
-						<h6>Type</h6>
-						<p>Indica</p>
-						<p>Sativa</p>
-						<p>Indica</p>
-
-					</div>
-			 </div>
-		</div>
-
-
-		<div style="margin: 25px 0;">	
-			<div style="text-align: center;">
-				<h4>Fire Bars</h4>
-			</div>
-
-			<div  style="justify-content: center;" class="flex">
-				<div style="cursor: pointer;">
-					<h5 style="text-align:center;">High THC Content</h5>
-					<img style="width:90%; margin: auto 9px; float:right;" src="images/firebars.jpg">
 				</div>
+					<div class="mainMenuContent">
+							<div class="strain-1 strainDisplay">
+								<div class="strainTitle">
+									<h4>Sativa</h4>
+								</div>
+								<div class="flex menuContainer">
+									<div class="menuImage">
+										<img class="homeSlides" src="images/dabs/Blue-Dream-Sativa.jpg">
+									</div>
+									<div class="menuText">
+										<div class="strain">
+											<p><b>Indica</b></p>
+										</div>
 
-				<div style="cursor: pointer;">
-					<h5 style="text-align:center;">Trending</h5>
-					<img style="width:90%; margin: auto 9px; float:right;" src="images/firebars.jpg">
+										<div class="prices">
+											<p><b>Distillate 1g:</b> $60</p>
+											<p><b>Diamonds 1g:</b> $80</p>
+										</div>
+										<div class="description desktopOnly">
+											Sativa strains will produce a will typically produce a euphoric, energetic, cerebral high functioning high. All Tasty Extracts are created.......
+										</div>		
+									</div>
+							</div>
+
+							<div class="description mobileDevices">
+								<p>Sativa strains will produce a will typically produce a euphoric, energetic, cerebral high functioning high. All Tasty Extracts are created.......</p>
+							</div>
+						</div>
+
+							<div class="strain-2 strainDisplay">
+								<div class="strainTitle">
+									<h4>Hybrid</h4>
+								</div>
+								<div class="flex menuContainer">
+									<div class="menuImage">
+										<img class="homeSlides" src="images/dabs/Phantom-Cookies-Hybrid-main.jpg">
+									</div>
+									<div class="menuText">
+										<div class="prices">
+											<p><b>Distillate 1g:</b> $60</p>
+											<p><b>Diamonds 1g:</b> $80</p>
+										</div>
+										<div class="description desktopOnly">
+											<p>Hybrid is a combination of sativa and indica plants — specifically bred to provide certain qualities. All Tasty Extracts are created.... </p>
+										</div>
+
+									</div>
+							</div>
+
+							<div class="description mobileDevices">
+								<p>Hybrid weed is a combination of sativa and indica plants — specifically bred to provide certain qualities. All Tasty Extracts are created.... </p>
+							</div>
+						</div>
+						<div class="strain-3 strainDisplay">
+							<div class="strainTitle">
+								<h4>Indica</h4>
+							</div>
+							<div class="flex menuContainer">
+								<div class="menuImage">
+									<img class="homeSlides" src="images/dabs/images/dabs/glass-dabber.jpg">
+								</div>
+								<div class="menuText">
+									<div class="strain">
+										<p><b>Indica</b></p>
+									</div>
+
+									<div class="prices">
+										<p><b>Distillate 1g:</b> $60</p>
+									</div>
+									<div class="description desktopOnly">
+										<p>Indica is a stronger strain of flower typically used to aid mental relaxation, muscle relaxation, and to increase apetite. All Tasty Extracts...</p>
+									</div>		
+								</div>
+							</div>
+
+							<div class="description mobileDevices">
+								<p>Indica is a stronger strain of flower typically used to aid mental relaxation, muscle relaxation, and to increase apetite. All Tasty Extracts...</p>
+							</div>
+						</div>
+
+					<div class="sliderCon" style="position:relative">
+						<div class="strainTitle">
+							<h4>Select Your Concentrates</h4>
+						</div>
+						<div class="strainSelectionCon">
+							<div class="flex" style="justify-content: center; align-items: center;">
+								<div class="strainChoice change-strain-1">
+									<div class="text-Overlay">
+										<h6>Sativa</h6>
+									</div>
+									<img  src="images/dabs/Blue-Dream-Sativa.jpg">
+								</div>
+								
+								<div class="strainChoice change-strain-2">
+									<div class="text-Overlay">
+										<h6>Hybrid</h6>
+									</div>
+									<img  src="images/dabs/Phantom-Cookies-Hybrid-main.jpg">
+								</div>
+								
+								<div class="strainChoice change-strain-3">
+									<div class="text-Overlay">
+										<h6>Glass Dabber</h6>
+									</div>
+									<img  src="images/dabs/glass-dabber.jpg">
+								</div>
+							</div>
+						</div>	
+					</div>	
 				</div>
-			</div>
-		</div>	
+			</div>	
 
 		<div class="smoke">
 			<div></div>
 		</div>
-		
+		</div>
 
 </body>
 </html>
