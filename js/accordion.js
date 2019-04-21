@@ -1,6 +1,6 @@
 	
 $( document ).ready(function() {
-
+$(gallery.construct('group_1|sativa-hc|hybrid-hc|indica-hc'));
 
     var box = $(".strainSelectionCon"), x;
 	$(".arrow").click(function() {
